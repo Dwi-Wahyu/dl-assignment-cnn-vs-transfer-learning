@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C/C++ build artifacts & shared objects
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Environment variables & credentials
+.env
+.env.*
+kaggle.json
+*.pem
+*.key
+
+# Datasets and archives (WAJIB diabaikan)
+data/
+dataset/
+datasets/
+seg_train/
+seg_test/
+seg_pred/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+
+# Model checkpoints & weights (WAJIB diabaikan)
+checkpoints/
+*.keras
+*.h5
+*.hdf5
+*.ckpt*
+*.pt
+*.pth
+
+# Generated outputs & logs (WAJIB diabaikan kecuali .gitkeep)
+outputs/*
+!outputs/.gitkeep
+logs/
+tensorboard/
+wandb/
